@@ -45,15 +45,6 @@ function getLocalDate(date, isSeconds, isISO) {
   return res;
 };
 
-
-// {
-//   let = result;
-//   if (!date) result = toLocaleDateString();
-//   else if (!isSeconds) result
-//   return result;
-  
-// };
-
 console.log(getLocalDate(myDate));
 console.log(getLocalDate(myDate, true)); 
 console.log(getLocalDate(myDate, false, true));
@@ -87,10 +78,7 @@ function getLocalDay(d) {
   if (day === 0) day = 7;
   return day;
 };
-// {
-// let date = new Date(d);
-// return date.getDay();
-// };
+
 console.log(getLocalDay('2019-07-16'));
 console.log(getLocalDay('2019-07-25'));
 console.log(getLocalDay('2019-07-27'));
